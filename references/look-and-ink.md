@@ -140,7 +140,7 @@ Applied to every mood so each act keeps its color identity while staying crisp:
   brims and ledges streak the surface under them).
 
 ## Measuring
-- **For a target look, give Claude 5-10 frames from videos you like, for private analysis only: measure light, color
+- **For a target look, give the agent (Gemini / Claude) 5-10 frames from videos you like, for private analysis only: measure light, color
   and pacing, but don't copy their characters, designs, sets or other distinctive elements. Keep the frames outside
   the project and its git repo, and never ship or publish them.**
 - Compare frames to reference frames by mean L\*, p5/p95, chroma, ink density, texture energy, edge density and

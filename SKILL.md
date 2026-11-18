@@ -46,7 +46,7 @@ A field guide distilled from building 3D cartoon Shorts and long-form films in R
      elder). Design your own cast by changing the overrides; keep every character of a film in one family
      (characters.md). `DemoCast` shows the three in one light.
 
-For a target look, give Claude 5-10 frames from videos you like, for private analysis only: measure light, color and
+For a target look, give the agent (Gemini / Claude) 5-10 frames from videos you like, for private analysis only: measure light, color and
 pacing, but don't copy their characters, designs, sets or other distinctive elements. Keep the frames outside the
 project and its git repo, and never ship or publish them.
 

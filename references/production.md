@@ -27,7 +27,7 @@ At every stop: file paths plus an honest list of what remains or doesn't work.
   keep a change only if both the numbers and the eye check improve.
 - **Confirm a defect still exists before fixing it:** re-render that beat from the current code first; review lists go
   stale.
-- For a target look, give Claude 5-10 frames from videos you like, for private analysis only: measure light, color and
+- For a target look, give the agent (Gemini / Claude) 5-10 frames from videos you like, for private analysis only: measure light, color and
   pacing, but don't copy their characters, designs, sets or other distinctive elements. Keep the frames outside the
   project and its git repo, and never ship or publish them. (How to measure: look-and-ink.md.)
 - **No extra installs, no git** inside the video work: no new npm or pip packages and no commits unless the user asks.

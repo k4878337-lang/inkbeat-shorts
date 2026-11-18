@@ -1,6 +1,6 @@
-# inkbeat-shorts: a Claude Code skill for 3D cartoon Shorts in Remotion
+# inkbeat-shorts: 3D cartoon Shorts in Remotion (Gemini & Claude Skill)
 
-A skill that teaches Claude Code how to make **3D animated cartoon videos in Remotion + three.js / React Three
+A skill that teaches Gemini and Claude how to make **3D animated cartoon videos in Remotion + three.js / React Three
 Fiber**: vertical Shorts with the camera grammar of viral 3D cartoon Shorts, and calm 16:9 long-form films. It
 contains the rules and measured targets (beats per minute, % still, % fast, caption placement, ink density, texture
 energy, loudness), a crisp toon look with a post-process ink outline, a physical-plausibility checklist, every flicker
@@ -8,6 +8,19 @@ cause found with its fix, a deterministic render recipe with motion blur, a QA r
 project. Every rule exists because a render was rejected without it.
 
 ## Install
+
+### 1. In Gemini / AntiGem Custom Skills
+- **Via Zip Import**: In Gemini / AntiGem settings, select "Import Custom Skill" or "Add Skill" and pick the provided `inkbeat-shorts.zip`.
+- **Global Path**: Extract the `inkbeat-shorts` folder directly into:
+  ```
+  ~/.gemini/config/skills/inkbeat-shorts/
+  ```
+- **Project-Specific Path**:
+  ```
+  your-project/.agents/skills/inkbeat-shorts/
+  ```
+
+### 2. In Claude Code
 Copy the `inkbeat-shorts` folder into your project's `.claude/skills/` folder:
 
 ```
@@ -21,7 +34,7 @@ your-project/
         templates/
 ```
 
-Claude Code picks it up automatically for matching tasks, or you can ask for it by name.
+Gemini and Claude pick it up automatically for matching tasks, or you can ask for it by name.
 
 ## What's inside
 - `SKILL.md`: the short version of every rule, and how to start a project from `templates/`.
@@ -65,7 +78,7 @@ VO in vo/. Show me the plan, then a look-dev sheet, then build and render it wit
 Stop after each step.
 ```
 
-For a target look, give Claude 5-10 frames from videos you like, for private analysis only: measure light, color and
+For a target look, give the agent (Gemini / Claude) 5-10 frames from videos you like, for private analysis only: measure light, color and
 pacing, but don't copy their characters, designs, sets or other distinctive elements. Keep the frames outside the
 project and its git repo, and never ship or publish them.
 
